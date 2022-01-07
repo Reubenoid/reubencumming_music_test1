@@ -1,13 +1,52 @@
 :root {
-    color: #6416bd;
+    color: #7900ff;
     font-family: "Tamil Sangam MN", sans-serif;
 }
 
 body {
-    background-color: #03a0b0;
+    background-color: #001541;
+    margin: 25px 25px;
+    border: 1px solid red;
 }
 
+.heading {
+    font-family: "The Nautigal", sans-serif;
+    color: #0389ec;
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 5px;
+}
 .one {
     font-family: "The Nautigal", sans-serif;
-    color: #2ab914;
+    color: #aaec03;
+    font-size: 3em;
+}
+
+.two {
+    font-family: "Times New Roman", sans-serif;
+    color: #0389ec;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    opacity: 0.5;
+}
+
+iframe {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+video {
+    border-radius: 0%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
